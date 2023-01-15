@@ -1,0 +1,99 @@
+header{
+    width: 100%;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 55;
+    background-color: black;
+}
+
+
+
+header .menu{
+ width: 70px;
+height: 35px;
+}
+
+header .container .row nav ul li a:hover{
+   color: yellow !important;
+}
+
+#welcome{
+    background-image: url(/assets/image/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+
+
+#welcome .container .welcome-title .title p{
+    font-size: 45px;
+    color: white;
+    font-style: italic;
+}
+
+#welcome .container .welcome-title .title h1{
+    font-size: 85px;
+    color: white;
+    font-style: italic;
+}
+#services .container .title h2{
+    font-size: 45px;
+}
+
+#services .container .row .icon{
+   width: 80px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+
+#services .container .row .icon i{
+    padding: 15px;
+    font-size: 45px;
+    color: white;
+}
+
+#about .container ul li{
+    width: 370px;
+    height: 240px;
+}   
+
+#about .container ul .first .title{
+    float: left;
+}
+
+#about .container ul li img{
+    position: absolute;
+    left: 42%;
+    width: 180px;
+    height: 180px;
+    color: white;
+    border: 7px solid #e9ecef;
+    background-color: #bba863;
+}
+
+#about .container .timeline{
+    position: relative;
+}
+
+#about .container .timeline::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 49%;
+    width: 2px;
+    background-color: #8f979e
+}
+
+#contact{
+    background-image:url(/assets/image/global-network-connection-world-map-digital-background_1017-23322.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
