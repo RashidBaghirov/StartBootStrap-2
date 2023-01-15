@@ -56,13 +56,14 @@ header .container .row nav ul li a:hover{
     color: white;
 }
 
+
 #about .container ul li{
     width: 370px;
     height: 240px;
 }   
 
 #about .container ul .first .title{
-    float: left;
+    float: left !important;
 }
 
 #about .container ul li img{
@@ -79,12 +80,16 @@ header .container .row nav ul li a:hover{
     position: relative;
 }
 
+/* #about .container .timeline .text-right{
+    float: right !important;
+} */
+
 #about .container .timeline::before{
     content: "";
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 49%;
+    left: 50%;
     width: 2px;
     background-color: #8f979e
 }
@@ -93,7 +98,6 @@ header .container .row nav ul li a:hover{
     background-image:url(/assets/image/global-network-connection-world-map-digital-background_1017-23322.webp);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 
