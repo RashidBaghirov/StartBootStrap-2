@@ -19,7 +19,7 @@ header .container .row nav ul li a:hover{
 }
 
 #welcome{
-    background-image: url(/assets/image/header-bg.jpg);
+    background-image: url(assets/image/header-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
@@ -95,7 +95,7 @@ header .container .row nav ul li a:hover{
 }
 
 #contact{
-    background-image:url(/assets/image/global-network-connection-world-map-digital-background_1017-23322.webp);
+    background-image:url(assets/image/global-network-connection-world-map-digital-background_1017-23322.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
